@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: testreactjx
+    - name: testspring
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
