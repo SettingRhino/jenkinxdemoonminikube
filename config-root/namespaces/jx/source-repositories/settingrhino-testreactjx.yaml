@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: SettingRhino
+    provider: github
+    repository: testreactjx
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: settingrhino-testreactjx
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/SettingRhino/testreactjx.git
+  org: SettingRhino
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testreactjx
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/SettingRhino/testreactjx

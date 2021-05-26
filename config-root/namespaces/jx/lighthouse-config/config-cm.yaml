@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         SettingRhino/jenkinxdemoonminikube: true
+        SettingRhino/testreactjx: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         SettingRhino/jenkinxdemoonminikube: merge
+        SettingRhino/testreactjx: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - SettingRhino/jenkinxdemoonminikube
+        - SettingRhino/testreactjx
       - labels:
         - updatebot
         missingLabels:
@@ -41,7 +44,8 @@ data:
         - needs-rebase
         repos:
         - SettingRhino/jenkinxdemoonminikube
-      target_url: http://dashboard-jx.192.168.99.100.nip.io
+        - SettingRhino/testreactjx
+      target_url: http://dashboard-jx.192.168.99.101.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
