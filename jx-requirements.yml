@@ -14,7 +14,7 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
-    registry: 10.109.94.123
+    registry: 10.96.33.77
   environments:
   - key: dev
     owner: SettingRhino

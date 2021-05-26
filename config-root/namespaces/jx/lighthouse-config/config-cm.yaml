@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - SettingRhino/jenkinxdemoonminikube
-      target_url: http://dashboard-jx.192.168.49.2.nip.io
+      target_url: http://dashboard-jx.192.168.99.100.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
