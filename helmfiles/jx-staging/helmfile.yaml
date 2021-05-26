@@ -1,5 +1,5 @@
 filepath: ""
-namespace: jx-production
+namespace: jx-staging
 repositories:
 - name: dev
   url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
