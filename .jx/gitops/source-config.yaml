@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: jenkinxdemoonminikube
     - name: testreactjx
     - name: testspring
     scheduler: in-repo
